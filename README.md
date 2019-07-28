@@ -1,4 +1,4 @@
-# django-simple-auth-Login-Logout-Register-
+# django-auth-Login-Logout-Register-
 
   ## Things You Must To Know  
   ###### i used Django 2.0.8 maybe it's not running on Django version 1 because has many of different syntax are there.

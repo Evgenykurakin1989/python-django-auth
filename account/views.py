@@ -22,11 +22,8 @@ def signup(request):
             user = authenticate(username = user,password=raw_password)
             login(request, user)
             return redirect('home')
-
     else:
-
         form = SignUpForm()
-
     return render(request,'account/signup.html',{'form':form})
 
 
